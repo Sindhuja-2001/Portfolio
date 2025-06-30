@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import SkillCard from "./SkillCard";
-import reactImg from "../../assets/skillsImg/reactImg.svg";
+import reactLogo from "../../assets/SkillsImg/reactLogo.svg";
 import tsImg from "../../assets/skillsImg/Typescript.svg";
 import jsImg from "../../assets/skillsImg/Javascript.svg";
 import htmlImg from "../../assets/skillsImg/Html5.svg";
@@ -12,7 +12,7 @@ import vscodeImg from "../../assets/skillsImg/vs code.svg";
 import BlobSectionWrapper from "../BlobSectionWrapper";
 
 const skills = [
-  { name: "React", image: reactImg },
+  { name: "React", image: reactLogo },
   { name: "TypeScript", image: tsImg },
   { name: "JavaScript", image: jsImg },
   { name: "HTML5", image: htmlImg },
