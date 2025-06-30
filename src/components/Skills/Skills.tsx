@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import SkillCard from "./SkillCard";
-import reactImg from "../../assets/skillsImg/reactIMg.svg";
+import reactImg from "../../assets/skillsImg/reactImg.svg";
 import tsImg from "../../assets/skillsImg/Typescript.svg";
 import jsImg from "../../assets/skillsImg/Javascript.svg";
 import htmlImg from "../../assets/skillsImg/Html5.svg";
