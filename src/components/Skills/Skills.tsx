@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import SkillCard from "./SkillCard";
-import reactLogo from "../../assets/SkillsImg/reactLogo.svg";
-import tsImg from "../../assets/skillsImg/Typescript.svg";
-import jsImg from "../../assets/skillsImg/Javascript.svg";
-import htmlImg from "../../assets/skillsImg/Html5.svg";
-import cssImg from "../../assets/skillsImg/Css3.svg";
-import tailwindImg from "../../assets/skillsImg/Tailwindcss.svg";
+import reactLogo from "../../assets/skillsImg/reactLogo.svg";
+import tsImg from "../../assets/skillsImg/typeScript.svg";
+import jsImg from "../../assets/skillsImg/javascript.svg";
+import htmlImg from "../../assets/skillsImg/html5.svg";
+import cssImg from "../../assets/skillsImg/css3.svg";
+import tailwindImg from "../../assets/skillsImg/tailwindcss.svg";
 import reduxImg from "../../assets/skillsImg/redux.svg";
-import gitImg from "../../assets/skillsImg/Git.svg";
-import vscodeImg from "../../assets/skillsImg/vs code.svg";
+import gitImg from "../../assets/skillsImg/git.svg";
+import vscodeImg from "../../assets/skillsImg/vscode.svg";
 import BlobSectionWrapper from "../BlobSectionWrapper";
 
 const skills = [
