@@ -1,14 +1,15 @@
 import { motion } from "framer-motion";
 import SkillCard from "./SkillCard";
-import reactLogo from "../../assets/skillsImg/reactLogo.svg";
-import tsImg from "../../assets/skillsImg/typeScript.svg";
-import jsImg from "../../assets/skillsImg/javascript.svg";
-import htmlImg from "../../assets/skillsImg/html5.svg";
-import cssImg from "../../assets/skillsImg/css3.svg";
-import tailwindImg from "../../assets/skillsImg/tailwindcss.svg";
-import reduxImg from "../../assets/skillsImg/redux.svg";
-import gitImg from "../../assets/skillsImg/git.svg";
-import vscodeImg from "../../assets/skillsImg/vscode.svg";
+import reactLogo from "../../assets/skills/reactlogo.svg";
+import tsImg from "../../assets/skills/tailwind.svg";
+import jsImg from "../../assets/skills/javascript.svg";
+import htmlImg from "../../assets/skills/html5.svg";
+import cssImg from "../../assets/skills/css3.svg";
+import tailwindImg from "../../assets/skills/tailwind.svg";
+import reduxImg from "../../assets/skills/redux.svg";
+import gitImg from "../../assets/skills/git.svg";
+import gitHubImg from "../../assets/skills/github.svg";
+import vscodeImg from "../../assets/skills/vscode.svg";
 import BlobSectionWrapper from "../BlobSectionWrapper";
 
 const skills = [
@@ -19,7 +20,8 @@ const skills = [
   { name: "CSS3", image: cssImg },
   { name: "Tailwind", image: tailwindImg },
   { name: "Redux", image: reduxImg },
-  { name: "Git & GitHub", image: gitImg },
+  { name: "Git", image: gitImg },
+  { name: "GitHub", image: gitHubImg },
   { name: "VS Code", image: vscodeImg },
 ];
 
