@@ -5,21 +5,24 @@ import Experience from './components/Experience/Experience'
 import About from './components/About/About'
 import Header from './components/Header'
 import ThemeToggle from './components/ThemeToggle'
+import { ThemeProvider } from './context/ThemeContext'
 
 const App = () => {
   return (
     <>
-      <div className="relative overflow-x-hidden w-full min-h-screen bg-white text-black dark:bg-[#121212] dark:text-white transition-colors duration-300">
-        <Header />
-        <main>
-          <About />
-          <Skills />
-          <Experience />
-          <Project />
-          <Contact />
-          <ThemeToggle />
-        </main>
-      </div>
+      <ThemeProvider>
+        <div className="relative overflow-x-hidden w-full min-h-screen bg-white text-black dark:bg-[#121212] dark:text-white transition-colors duration-300">
+          <Header />
+          <main>
+            <About />
+            <Skills />
+            <Experience />
+            <Project />
+            <Contact />
+            <ThemeToggle />
+          </main>
+        </div>
+      </ThemeProvider>
     </>
   )
 }
